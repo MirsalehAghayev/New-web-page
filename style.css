@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+}
+.main-container{
+  width: 1920px;
+  height: 900px;
+  margin: 0 auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: #272042;
+  position: relative;
+}
+.birinciseyfe{
+  height: 950px; 
+  background-image: url('./folder/sekiller/1.jpg');
+  background-size: cover; 
+
+}
+.basliq{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  font-size: 13px;
+  color: #FFFFFF;
+  margin-left: 405px;
+  margin-right: 405px;
+  margin-bottom: 20px;
+
+}
+.navbar{
+  border: 1px solid #FFFFFF;
+  border-left: none;
+  border-right: none;
+  width: 910px;
+  position: absolute;
+  top: 70px;
+  left: 505px;
+}
+td{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 8px;
+
+}   
+.navbar tr td:nth-child(2){
+
+  border-right: 1px solid #FFFFFF;
+  border-left: 1px solid #FFFFFF;
+  padding-right: 20px;
+}
+.navbar tr td:nth-child(3){
+  border-right: 1px solid #FFFFFF;
+}
+.buttons button{
+  padding: 15px 30px;
+  background-color: #99862A;
+  color: #FFFFFF;
+  border: none;
+}
+
+.button1{
+  position: absolute;
+  top: 700px;
+  left: 752px;
+}
+
+.button2{
+  position: absolute;
+  top: 700px;
+  right: 747px;
+}
+.seyife2{
+  background-color:#282828;
+  height: 900px;
+  position: relative;
+
+}
+
+.cercive{
+  border: 3px solid white;
+  width: 1110px;
+  height: 656px;
+  position: absolute;
+  top: 110px;
+  right: 295px;
+
+}
+.tittle{
+  font-size: 36px;
+ font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 400;
+ line-height: 150%;
+ position: absolute;
+ top: 60px;
+ left: 187px;
+}
+.line{
+  border: 1px solid #FFFFFF;
+  border-bottom: none;
+  width: 160px;
+  position: absolute;
+  left: 475px;
+  top: 160px;
+  margin-bottom: 40px;
+}
+
+.summary{
+
+  width: 730px;
+  height: 192px;
+  position: absolute;
+  left: 190px;
+  top: 194px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+
+}
+.glass{
+  width: 80px;
+  height: 160px;
+  position: absolute;
+  top: 436px;
+  left: 500px;
+}
+
+.seyfe3{
+  background-color: #E6E3C4;
+  height: 1038px;
+
+  position: relative;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+}
+.small-pic{
+  gap: 30px;
+  display: flex;
+}
+
+
+.right-side{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+}
+.t-x{
+  width: 1110px;
+  height: 0px;
+  border: 1px solid #998431;
+  border-top: none;
+  position: absolute;
+  top: 80px;
+  left: 312px;
+  margin-bottom: 60px;
+}
+.bottom-line{
+  width: 1110px;
+  height: 0px;
+  border: 1px solid #998431;
+  border-top: none;
+  position: absolute;
+  top: 958px;
+  left: 300px;
+  margin-bottom: 60px;
+}
+
+.paragraph{
+  color: #000000;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+left: 312px;
+top: 140px;
+margin-bottom: 30px;
+}
+
+.maga1{
+  width: 274px;
+  height: 108px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 150%;
+  color: #282828;
+  top: 194px;
+  left: 312px;
+  margin-bottom: 30px;
+}
+
+.x2{
+  width: 160px;
+  border: 1px solid #0e0808;
+  border-top: none;
+  margin-top: 6px;
+  margin-bottom: 28px;
+}
+
+
+.int4{
+  width: 445px;
+  height: 84px;
+  top: 362px;
+  left: 312px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #282828;
+  margin-bottom: 30px;
+}
+
+.year2{
+
+  top: 476px;
+  left: 312px;
+  width: 445px;
+  height: 228px;
+  margin-bottom: 30px;
+}
+.first{
+  width: 32px;
+  height: 21px;
+  color:#282828;
+  padding: 26px 19px;
+  border-right: 1px solid #282828;
+
+}
+.two-year{
+  border-top: 1px solid #282828;
+  border-bottom: 1px solid #282828;
+}
+.two-text{
+  border-top: 1px solid #282828;
+  border-bottom: 1px solid #282828;
+
+}
+.firstspan{
+  width: 226px;
+  height: 27px;
+  font-family: 'Playball';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #282828;
+  padding-right: 70px;
+  padding-left: 30px;
+  margin-bottom: 5px;
+}
+.second{
+  width: 205px;
+  height: 21px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #282828;
+}
